@@ -1,0 +1,225 @@
+/*******************头部*******************/
+#header{
+    width: 100%;
+}
+.header h1{
+    height: 60px;
+    line-height: 60px;
+}
+
+
+/****************************内容**************/
+#main{
+    width: 100%;
+    background: #F7F2EC;
+}
+.main{
+    height: 700px;
+    padding: 70px 0;
+    background: url(../images/login_bg.jpg) no-repeat center;
+    box-sizing: border-box;
+}
+.main .login_kuang{
+    background: #fff;
+    float: right;
+    width: 420px;
+    height: 560px;
+    z-index: 10;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 0 20px #c8c8c8;
+}
+.main .login_kuang .login_btn{
+    height: 52px;
+}
+.main .login_kuang .login_btn li{
+    float: left;
+}
+.main .login_kuang .login_btn li a{
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    width: 210px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #333;
+}
+.main .login_kuang .login_btn li:nth-child(2) a{
+    color: lightgray;
+    border: none;
+    font-weight: normal;
+}
+.main .login_kuang .login_btn li:nth-child(2):hover a{
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    width: 210px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #333;
+}
+.main .login_kuang .login_form{
+    /*height: 185px;*/
+    width: 420px;
+    padding: 30px 49px 0 49px;
+    box-sizing: border-box;
+}
+.main .login_kuang .login_form .phonenum{
+    display: block;
+    width: 300px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #d8d8d8;
+    color: #464646;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.main .login_kuang .login_form .num_wrong{
+    font-size: 12px;
+    color: red;
+}
+.main .login_kuang .login_form .yanzhengma{
+    margin-top: 15px;
+    width: 322px;
+    height: 36px;
+}
+.main .login_kuang .login_form .yanzhengma .yzm{
+    display: inline-block;
+    width: 185px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #d8d8d8;
+    color: #464646;
+    padding: 5px 10px;
+    font-size: 12px;
+    float: left;
+}
+.main .login_kuang .login_form .yanzhengma a{
+    display: inline-block;
+    font-size: 13px;
+    width: 100px;
+    height: 34px;
+    color: #333;
+    line-height: 34px;
+    background: #f7f7f9;
+    border: 1px solid #ccc;
+    text-align: center;
+    float: right;
+}
+.main .login_kuang .login_form .yanzhengma .yz_wrong{
+    display: block;
+    width: 200px;
+    font-size: 12px;
+    color: red;
+}
+.main .login_kuang .login_form .find{
+    display: block;
+    font-size: 12px;
+    color: #333;
+    margin-top: 20px;
+    float: right;
+}
+.main .login_kuang .login_form .zhuce_btn{
+    width: 320px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    background: red;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.main .login_kuang .hezuo{
+    width: 420px;
+    height: 12px;
+    padding: 0 49px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.main .login_kuang .wangzhan{
+    width: 420px;
+    padding: 0 49px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: center;
+}
+.main .login_kuang .wangzhan li{
+    display: inline-block;
+    
+}
+.main .login_kuang .wangzhan li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 30px 0 0;
+    overflow: hidden;
+    zoom: 1;
+}
+.main .login_kuang .wangzhan li:nth-child(1) a{
+    background: url(../images/login_sprite.png) no-repeat;
+}
+.main .login_kuang .wangzhan li:nth-child(2) a{
+    background: url(../images/login_sprite.png) no-repeat -30px 0;
+}
+.main .login_kuang .wangzhan li:nth-child(3) a{
+    background: url(../images/login_sprite.png) no-repeat -60px 0;
+}
+.main .login_kuang .wangzhan li:nth-child(4) a{
+    background: url(../images/login_sprite.png) no-repeat -90px 0;
+}
+.main .login_kuang .wangzhan li:nth-child(5) a{
+    background: url(../images/login_sprite.png) no-repeat -120px 0;
+}
+.main .login_kuang .xieyi{
+    width: 420px;
+    height: 14px;
+    line-height:14px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+
+
+
+
+
+/**************************底部**************/
+#footer{
+    width: 100%;
+}
+.footer{
+    height: 80px;
+    padding-top: 10px;
+}
+.footer ul{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    margin: 0 8px 0 6px;
+    color: #333;
+    font-size:12px;
+}
+.footer ul li a:hover{
+    color: orange;
+}
+.footer p{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
